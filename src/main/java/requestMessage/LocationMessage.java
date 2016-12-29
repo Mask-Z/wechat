@@ -1,4 +1,4 @@
-package message;
+package requestMessage;
 
 /**
  * 地理位置消息

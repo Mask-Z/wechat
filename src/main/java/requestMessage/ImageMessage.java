@@ -1,4 +1,4 @@
-package message;
+package requestMessage;
 
 /**
  * 图片消息

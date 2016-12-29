@@ -1,4 +1,4 @@
-package message;
+package requestMessage;
 
 /**
  * 文本消息
