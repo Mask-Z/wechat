@@ -1,4 +1,4 @@
-package servlet;
+package util;
 
 /**
  * 请求校验工具类
