@@ -66,8 +66,9 @@ public class ImageMessageService {
 					Article article = new Article();
 					article.setTitle("微信公众帐号开发教程Java版");
 					article.setDescription("柳峰，80后，微信公众帐号开发经验4个月。为帮助初学者入门，特推出此系列教程，也希望借此机会认识更多同行！");
-					article.setPicUrl("http://0.xiaoqrobot.duapp.com/images/avatar_liufeng.jpg");
-					article.setUrl("http://blog.csdn.net/lyq8479");
+					article.setPicUrl("http://localhost:8080/img/bg1.jpg");
+//					article.setUrl("http://blog.csdn.net/lyq8479");
+					article.setUrl("http://localhost:8080/echats.html");
 					articleList.add(article);
 					// 设置图文消息个数
 					newsMessage.setArticleCount(articleList.size());
@@ -96,19 +97,22 @@ public class ImageMessageService {
 					Article article1 = new Article();
 					article1.setTitle("微信公众帐号开发教程\n引言");
 					article1.setDescription("");
-					article1.setPicUrl("http://0.xiaoqrobot.duapp.com/images/avatar_liufeng.jpg");
+//					article1.setPicUrl("http://0.xiaoqrobot.duapp.com/images/avatar_liufeng.jpg");
+					article1.setPicUrl("http://localhost:8080/img/bg1.jpg");
 					article1.setUrl("http://blog.csdn.net/lyq8479/article/details/8937622");
 
 					Article article2 = new Article();
 					article2.setTitle("第2篇\n微信公众帐号的类型");
 					article2.setDescription("");
-					article2.setPicUrl("http://avatar.csdn.net/1/4/A/1_lyq8479.jpg");
+//					article2.setPicUrl("http://avatar.csdn.net/1/4/A/1_lyq8479.jpg");
+					article2.setPicUrl("http://localhost:8080/img/bg2.jpg");
 					article2.setUrl("http://blog.csdn.net/lyq8479/article/details/8941577");
 
 					Article article3 = new Article();
 					article3.setTitle("第3篇\n开发模式启用及接口配置");
 					article3.setDescription("");
-					article3.setPicUrl("http://avatar.csdn.net/1/4/A/1_lyq8479.jpg");
+//					article3.setPicUrl("http://avatar.csdn.net/1/4/A/1_lyq8479.jpg");
+					article3.setPicUrl("http://localhost:8080/img/bg3.jpg");
 					article3.setUrl("http://blog.csdn.net/lyq8479/article/details/8944988");
 
 					articleList.add(article1);
